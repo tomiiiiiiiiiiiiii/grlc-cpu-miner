@@ -1,0 +1,23 @@
+# ------------------------------------------------------
+# Your GRLC address 
+# ------------------------------------------------------
+
+MJXo3Yipi2UoZCxqhPZeWAe3tTnxMRrxjR
+
+
+# ------------------------------------------------------
+# Choice of miner 
+# depending on the processor architecture
+# Default cpuminer-sse2.exe
+# -------------------------------------------------------
+# cpuminer-sse2.exe  -> Core2, Nehalem, generic x86_64 with SSE2   
+# cpuminer-aes-sse42.exe -> Westmere
+# cpuminer-avx.exe -> Sandybridge, Ivybridge
+# cpuminer-avx2.exe -> Haswell, Skylake, Kabylake, Coffeelake, Cometlake
+# cpuminer-avx2-sha.exe -> AMD Zen1, Zen2
+# cpuminer-avx2-sha-vaes.exe -> Intel Alderlake*, AMD Zen3
+# cpuminer-avx512.exe -> Intel HEDT Skylake-X, Cascadelake
+# cpuminer-avx512-sha-vaes.exe -> Icelake, Tigerlake, Rocketlake
+# ------------------------------------------------------
+
+cpuminer-sse2.exe
