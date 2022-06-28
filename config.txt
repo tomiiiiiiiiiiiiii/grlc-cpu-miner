@@ -1,8 +1,9 @@
 # ------------------------------------------------------
 # Your GRLC address 
+# Change this wallet address to yours !!!
 # ------------------------------------------------------
 
-MJXo3Yipi2UoZCxqhPZeWAe3tTnxMRrxjR
+MU223KJiE5wECh9sBakd2ACiGwoDHWAoML
 
 
 # ------------------------------------------------------
