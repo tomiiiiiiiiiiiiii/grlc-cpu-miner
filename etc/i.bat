@@ -11,12 +11,13 @@ echo %v[1]%
 echo ====================================
 echo Miner: %v[2]%
 echo ====================================
-echo Pool: pool.garlico.in:3002
+echo This version supports the freshgarlic
+echo Pool: freshgarlicblocks.net:3032
 echo ====================================
 
 :start_grlc
 echo Starting the miner, please wait...
 timeout /t 10 >nul
-.\\bin\\%v[2]% -a allium -o stratum+tcp://pool.garlico.in:3002 -u %v[1]% -p x
+.\\bin\\%v[2]% -a allium -o stratum+tcp://freshgarlicblocks.net:3032 -u daily-%v[1]% -p x
 goto :start_grlc
 pause
